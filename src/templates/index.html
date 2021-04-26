@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+   <title>OAuth2 autorization</title>
+
+   <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="Gi9NCrO4"></script>
+
+      <section class="main">
+         <form action="#" class="login__form">
+            <div class="login__form-header">
+               <h2>Login</h2>
+               <p>Don't have an account? <a href="#">Sign up</a></p>
+            </div>
+
+            <div class="login__form-oauth2">
+               <div id="my-signin2">Signup with Google</div>
+            </div>
+
+            <div class="login__form-line">
+               or
+            </div>
+
+            <div class="login__form-elemets">
+               <div class="login__form-relation">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" placeholder="Start typing here email...">
+               </div>
+               <div class="login__form-relation">
+                  <label for="email">Password</label>
+                  <input type="text" id="password" placeholder="Start typing here password...">
+               </div>
+
+               <div class="login__form-relation">
+                  <input type="submit" class="login__form-btn" value="Log In">
+               </div>
+            </div>
+         </form>
+      </section>
+
+   <script src="./scripts/index.js"></script>
+   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</body>
+</html>

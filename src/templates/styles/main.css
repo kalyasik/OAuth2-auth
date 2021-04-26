@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+.main {
+   height: 100vh;
+   padding: 0 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.login__form {
+   border-radius: 5px;
+   padding: 25px;
+   -webkit-box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2);
+   -moz-box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2);
+   box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2);
+}
+
+.login__form-header {
+   text-align: center;
+   margin: 20px 0;
+   letter-spacing: 1.2px;
+}
+
+.login__form-header h2 {
+   font-size: 34px;
+   color: #222;
+}
+
+.login__form-header p {
+   font-size: 16px;
+   margin: 10px 0;
+   color: #222;
+}
+
+.login__form-line {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   color: grey;
+}
+
+.login__form-line::before,
+.login__form-line::after {
+   display: inline-block;
+   content: "";
+   border-top: .1rem solid grey;
+   width: 10rem;
+   margin: 0 .5rem;
+   padding-bottom: 4px;
+}
+
+.login__form-relation {
+   display: flex;
+   flex-direction: column;
+   margin: 10px 0;
+}
+
+.login__form-relation label {
+   margin-bottom: 8px;
+}
+
+.login__form-relation input[type=text] {
+   padding: 10px 5px;
+}
+
+.login__form-btn {
+   margin-top: 20px;
+   background-color: #1d67e6;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 10px 0;
+   border: none;
+   border-radius: 5px;
+   outline: none;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
